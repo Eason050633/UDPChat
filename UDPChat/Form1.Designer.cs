@@ -107,6 +107,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(603, 25);
             this.textBox2.TabIndex = 7;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // Onlinebutton
             // 
@@ -116,6 +117,7 @@
             this.Onlinebutton.TabIndex = 8;
             this.Onlinebutton.Text = "上線";
             this.Onlinebutton.UseVisualStyleBackColor = true;
+            this.Onlinebutton.Click += new System.EventHandler(this.Onlinebutton_Click);
             // 
             // PostButton
             // 
@@ -125,6 +127,7 @@
             this.PostButton.TabIndex = 9;
             this.PostButton.Text = "廣播";
             this.PostButton.UseVisualStyleBackColor = true;
+            this.PostButton.Click += new System.EventHandler(this.PostButton_Click);
             // 
             // Form1
             // 
